@@ -8,15 +8,13 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Akshar&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap" rel="stylesheet">
   <title>Reproductor SongCloud</title>
 
 </head>
 
 <body>
   <div id="app"></div>
-  <script type="module" src="/main.js"></script>
   <header>
 
     <div class="App">
@@ -31,32 +29,32 @@
 
     <nav>
       <ul class="list">
-        <li> <img src="img/icono casa.svg" alt="Inicio">
+        <li> <img src="/public/img/icono casa.svg" alt="Inicio">
           <span>Inicio</span>
         </li>
 
-        <li><img src="img/icono busqueda.svg" alt="Busqueda">
+        <li><img src="/public/img/icono busqueda.svg" alt="Busqueda">
           <span>Busqueda</span>
         </li>
 
-        <li> <img src="img/icono Biblioteca.svg" alt="Biblioteca">
+        <li> <img src="/public/img/icono Biblioteca.svg" alt="Biblioteca">
           <span>Biblioteca</span>
         </li>
       </ul>
 
       <ul class="list">
-        <li><img src="img/Icono Favorito.svg" alt="Favoritos">
+        <li><img src="/public/img/Icono Favorito.svg" alt="Favoritos">
           <span>Favoritos</span>
         </li>
 
-        <li><img src="img/Icono ajustes.svg" alt="Ajustes">
+        <li><img src="/public/img/Icono ajustes.svg" alt="Ajustes">
           <span>Ajustes</span>
         </li>
       </ul>
 
       <ul class="list">
         <li>
-          <img src="img/Icono Salir.svg" alt="Salir">
+          <img src="/public/img/Icono Salir.svg" alt="Salir">
           <span>Salir</span>
         </li>
       </ul>
@@ -65,147 +63,22 @@
 
   </header>
 
-<main>
-<h2 class="tema2">Que Quieres escuchar hoy?</h2>
+<main id="main">
+<h2 class="title">Que Quieres escuchar hoy?<hr> </h2>
 
 <div id="Track_list">
 
   <div class="song">
-   <img class="song" src="https://leonardoapi.onrender.com/assets/music/img/catherinefeeny_mrblue.jpg">
+   <img class="song" src="">
     <div class="descripcion">
-     <h4>Mr Blue</h4>
-        <p>Catherine Feeny</p>
-        <p class="duration"> 3:03</p>
-        </div>
-
-        <div class="song">
-         <img class="song" src="https://leonardoapi.onrender.com/assets/music/img/daftpunk_getlucky.jpg">
-          <div class="descripcion">
-           <h4>Get Lucky</h4>
-            <p>Daft Punk</p>
-            <p class="duration"> 4:06</p>
-          </div>
-
-          <div class="song">
-            <img class="song" src="https://leonardoapi.onrender.com/assets/music/img/inthevalleybelow_peaches.jpg">
-            <div class="descripcion">
-              <h4>Peaches</h4>
-              <p>In The Valley Below</p>
-              <p class="duration"> 4:47</p>
-            </div>
-
-            <div class="song">
-              <img class="song" src="https://leonardoapi.onrender.com/assets/music/img/jcole_sheknows.jpg">
-              <div class="descripcion">
-                <h4>She Knows</h4>
-                <p>J. Cole</p>
-                <p class="duration"> 4:08</p>
-              </div>
-
-              <div class="song">
-                <img class="song"
-                  src="https://leonardoapi.onrender.com/assets/music/img/panicatthedisco_houseofmemories.jpg">
-                <div class="descripcion">
-                  <h4>House Of Memories</h4>
-                  <p>Panic At The Disco</p>
-                  <p class="duration"> 3:30</p>
-                </div>
-
-                <div class="song">
-                  <img class="song" src="https://leonardoapi.onrender.com/assets/music/img/bedroom_inmyhead.jpg">
-                  <div class="descripcion">
-                    <h4>In My Head</h4>
-                    <p>Bedroom</p>
-                    <p class="duration"> 6:00</p>
-                  </div>
-
-                  <div class="song">
-                    <img class="song"
-                      src="https://leonardoapi.onrender.com/assets/music/img/dancroll_complimentyoursoul.jpg">
-                    <div class="descripcion">
-                      <h4>Compliment Your Soul</h4>
-                      <p>Dan Croll</p>
-                      <p class="duration"> 2:58</p>
-                    </div>
-
-                    <div class="song">
-                      <img class="song"
-                        src="https://leonardoapi.onrender.com/assets/music/img/theroyalconcept_goldrushed.jpg">
-                      <div class="descripcion">
-                        <h4>Goldrushed</h4>
-                        <p>The Royal Concept</p>
-                        <p class="duration"> 3:47</p>
-                      </div>
-                      
-                      <div class="song">
-                        <img class="song"
-                          src="https://leonardoapi.onrender.com/assets/music/img/greenday_boulevardofbrokendreams.jpg.jpg">
-                        <div class="descripcion">
-                          <h4>Boulevard of Broken Dreams</h4>
-                          <p>Greenday</p>
-                          <p class="duration"> 4:22</p>
-                        </div>
-
-                        <div class="song">
-                          <img class="song"
-                            src="https://leonardoapi.onrender.com/assets/music/img/hozier_takemetochurch.jpg">
-                          <div class="descripcion">
-                            <h4>Take Me To Church</h4>
-                            <p>Hozier</p>
-                            <p class="duration"> 4:01</p>
-                          </div>
-
-                          <div class="song">
-                            <img class="song"
-                              src="https://leonardoapi.onrender.com/assets/music/img/onerepublic_countingstars.jpg">
-                            <div class="descripcion">
-                              <h4>countingstars</h4>
-                              <p>onerepublic</p>
-                              <p class="duration"> 4:17</p>
-                            </div>
-
-                            <div class="song">
-                              <img class="song"
-                                src="https://leonardoapi.onrender.com/assets/music/img/thesmiths_panic.jpg">
-                              <div class="descripcion">
-                                <h4>Panic</h4>
-                                <p>The Smiths</p>
-                                <p class="duration"> 2:22</p>
-                              </div>
-
-                              <div class="song">
-                                <img class="song"
-                                  src="https://leonardoapi.onrender.com/assets/music/img/theneighbourhood_softcore.jpg">
-                                <div class="descripcion">
-                                  <h4>Softcore</h4>
-                                  <p>The Neighbourhood</p>
-                                  <p class="duration"> 3:31</p>
-                                </div>
-
-                                <div class="song">
-                                  <img class="song"
-                                    src="https://leonardoapi.onrender.com/assets/music/img/theweeknd_blindinglights.jpg">
-                                  <div class="descripcion">
-                                    <h4>Blinding Lights</h4>
-                                    <p>The Weeknd</p>
-                                    <p class="duration"> 3:22</p>
-                                  </div>
-
-                                  <div class="song">
-                                    <img class="song"
-                                      src="https://leonardoapi.onrender.com/assets/music/img/oliviarodrigo_favoritecrime.jpg">
-                                    <div class="descripcion">
-                                      <h4>Favorite Crime</h4>
-                                      <p>Olivia Rodrigo</p>
-                                      <p class="duration"> 3:05</p>
-                                    </div>
-
-  
-
-                  </div>
+     <h4></h4>
+        <p></p>
+        <p class="duration"></p>
+    </div>
 
   </main>
 
+  <script type="module" src="/main.js"></script>
 
 </body>
 
