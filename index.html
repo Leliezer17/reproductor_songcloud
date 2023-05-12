@@ -14,70 +14,88 @@
 </head>
 
 <body>
-  <div id="app"></div>
-  <header>
 
-    <div class="App">
-      <h1 class="container">SongCloud</h1>
-    </div>
+  <div class="App">
+    <h1 class="container-p">SongCloud</h1>
+  </div>
+  
 
-    <div class="container2">
-      <h2>Buen dia Sr.</h2>
-      <h3>Luis Arocha</h3>
-      <p>Leliezer123gmail.com</p>
-    </div>
+  <div class="contenedor-menu">
 
-    <nav>
-      <ul class="list">
-        <li> <img src="/public/img/icono casa.svg" alt="Inicio">
-          <span>Inicio</span>
-        </li>
+    <header>
 
-        <li><img src="/public/img/icono busqueda.svg" alt="Busqueda">
-          <span>Busqueda</span>
-        </li>
+      <aside class="menu_aside">
 
-        <li> <img src="/public/img/icono Biblioteca.svg" alt="Biblioteca">
-          <span>Biblioteca</span>
-        </li>
-      </ul>
+        <div class="container2">
+          <h2>Buen dia Sr.</h2>
+          <h3>Luis Arocha</h3>
+          <p>Leliezer123gmail.com</p>
+        </div>
+    
+        <nav>
+          <ul class="list">
+            <li>
+              <img class="icon" src="/public/img/icono casa.svg" alt="Inicio">
+              <span>Inicio</span>
+            </li> 
+            <br>
 
-      <ul class="list">
-        <li><img src="/public/img/Icono Favorito.svg" alt="Favoritos">
-          <span>Favoritos</span>
-        </li>
+            <li>
+              <img class="icon" src="/public/img/icono busqueda.svg" alt="Busqueda">
+              <span>Busqueda</span>
+            </li>
+            <br>
 
-        <li><img src="/public/img/Icono ajustes.svg" alt="Ajustes">
-          <span>Ajustes</span>
-        </li>
-      </ul>
+            <li>
+              <img class="icon" src="/public/img/icono Biblioteca.svg" alt="Biblioteca">
+              <span>Biblioteca</span>
+            </li>
+          </ul>
+          <br>
+          <br>
+          <ul class="list">
+            <li>
+              <img class="icon" src="/public/img/Icono Favorito.svg" alt="Favoritos">
+              <span>Favoritos</span>
+            </li>
+            <br>
+            <li>
+              <img class="icon" src="/public/img/Icono ajustes.svg" alt="Ajustes">
+              <span>Ajustes</span>
+            </li>
+          </ul>
+          <br>
+          <ul class="list">
+            <li>
+              <img class="icon" src="/public/img/Icono Salir.svg" alt="Salir">
+              <span>Salir</span>
+            </li>
+          </ul>
+        </nav>
+      </aside>
 
-      <ul class="list">
-        <li>
-          <img src="/public/img/Icono Salir.svg" alt="Salir">
-          <span>Salir</span>
-        </li>
-      </ul>
+    </header>
+  
+  
+    <main id="main" class="lista">
+      <h2 class="title">Que Quieres escuchar hoy?<hr> </h2>
+      <div class="principal">
 
-    </nav>
+        <div id="Track_list"></div>
 
-  </header>
-
-<main id="main">
-<h2 class="title">Que Quieres escuchar hoy?<hr> </h2>
-
-<div id="Track_list">
-
-  <div class="song">
-   <img class="song" src="">
-    <div class="descripcion">
-     <h4></h4>
-        <p></p>
-        <p class="duration"></p>
-    </div>
-
-  </main>
-
+        <div class="song">
+          <img class="song" src="">
+          <div class="descripcion">
+            <h4></h4>
+              <p></p>
+              <p class="duration"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <div id="container"></div> -->
+  </div>
+  <div class="div" id="current_song"></div>
   <script type="module" src="/main.js"></script>
 
 </body>

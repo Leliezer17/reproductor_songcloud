@@ -1,30 +1,80 @@
-nav {
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 0 15px 0 0;
-  width: 200px;
-  height: 400px;
-  }
-
-  .App {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    color: #ffffff;
-    
-  }
-.container {
-  font-size: 3rem;
-  background-color: #676767;
-  height: 70px;
-  width: 270px;
-  border-radius: 0 0 15px 15px;
+*{
+  font-family: 'Akshar', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
 }
+
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+nav {
+  /* border: 1px solid rgb(0, 0, 0); */
+  border-radius: 0 15px 0 0;
+  /* width: 200px; */
+  /* height: 400px; */
+}
+.App {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff; 
+}
+.contenedor-menu {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+main, .principal, .description {
+  width: 100%;
+  height: 100%;
+}
+#Track_list {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.song img{
+  height: 7rem;
+}
+.description {
+  padding: 10px;
+}
+#current_song {
+  display: flex;
+  position:absolute;
+  justify-content: space-between; }
+  
+  li:hover {
+    color: #84899ea4;
+    translate: 2px;
+  }
+  .container-p {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    background-color: #676767;
+    height: 70px;
+    width: 270px;
+    border-radius: 0 0 15px 15px;
+  }
+  /* 
+  
 
   .list {
    padding-left: 1rem;
    padding-top: 1rem;
-  background-color: #676767;
   font-weight: 500;
   color: #ffffff;
   text-decoration: inherit;
@@ -32,25 +82,30 @@ nav {
   font-size: 20px;
 }
   
-  li:hover {
-    color: #84899e6e;
-    translate: 2px;
-  }
   
-  *{
-    font-family: 'Akshar', sans-serif;
-    background-color: black;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-.container2 {
-  background-color: #676767;
-  justify-content: center;
 
-}
-
-  h2 {
+  .title {
+    justify-content: flex-start;
     font-size: 32px;
     color: #ffffff;
   }
+  h3 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  p {
+    font-size: 16px;
+    color: #ffffff;
+  }
+ 
+.lista {
+  width: 100vh;
+  margin-left: 20px;
+  margin-top: 130px;
+  cursor: pointer;
+}
+.container2 {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+ */
