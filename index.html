@@ -16,6 +16,8 @@
 
 <body>
   <div id="app"></div>
+
+  <!-- El script que interactúa con el DOM debe ir al final del body -->
   <script type="module" src="/main.js"></script>
   <header>
 
@@ -31,32 +33,32 @@
 
     <nav>
       <ul class="list">
-        <li> <img src="img/icono casa.svg" alt="Inicio">
+        <li> <img src="/img/icono casa.svg" alt="Inicio">
           <span>Inicio</span>
         </li>
 
-        <li><img src="img/icono busqueda.svg" alt="Busqueda">
+        <li><img src="/img/icono busqueda.svg" alt="Busqueda">
           <span>Busqueda</span>
         </li>
 
-        <li> <img src="img/icono Biblioteca.svg" alt="Biblioteca">
+        <li> <img src="/img/icono Biblioteca.svg" alt="Biblioteca">
           <span>Biblioteca</span>
         </li>
       </ul>
 
       <ul class="list">
-        <li><img src="img/Icono Favorito.svg" alt="Favoritos">
+        <li><img src="/img/Icono Favorito.svg" alt="Favoritos">
           <span>Favoritos</span>
         </li>
 
-        <li><img src="img/Icono ajustes.svg" alt="Ajustes">
+        <li><img src="/img/Icono ajustes.svg" alt="Ajustes">
           <span>Ajustes</span>
         </li>
       </ul>
 
       <ul class="list">
         <li>
-          <img src="img/Icono Salir.svg" alt="Salir">
+          <img src="/img/Icono Salir.svg" alt="Salir">
           <span>Salir</span>
         </li>
       </ul>
@@ -70,6 +72,10 @@
 
 <div id="Track_list">
 
+  <!-- El renderizado de las canciones debe venir del servidor
+       No debes escribirlas manualmente cada una
+  -->
+
   <div class="song">
    <img class="song" src="https://leonardoapi.onrender.com/assets/music/img/catherinefeeny_mrblue.jpg">
     <div class="descripcion">
@@ -78,6 +84,9 @@
         <p class="duration"> 3:03</p>
         </div>
 
+      <!-- Al no indentor correctamente el código
+          dejaste etiquetas <div> sin su respectiva etiqueta de cierre
+       -->
         <div class="song">
          <img class="song" src="https://leonardoapi.onrender.com/assets/music/img/daftpunk_getlucky.jpg">
           <div class="descripcion">
